@@ -30,7 +30,7 @@ class ContactIcons extends StatelessWidget {
                 SizedBox(
                   width: defaultPadding / 2,
                 ),
-                Text("7488043538"),
+                Text("8949996269"),
               ],
             )),
         Container(
@@ -43,13 +43,6 @@ class ContactIcons extends StatelessWidget {
                 ContactFunction.SendEmail();
               },
               icon: SvgPicture.asset("assets/icons/gmail.svg"),
-            ),
-            InkWell(
-              onTap: () => launch(ContactFunction.youtubeUrl),
-              child: IconButton(
-                onPressed: () => launch(ContactFunction.youtubeUrl),
-                icon: SvgPicture.asset("assets/icons/youtube.svg"),
-              ),
             ),
             IconButton(
               onPressed: () {
@@ -66,9 +59,10 @@ class ContactIcons extends StatelessWidget {
               ),
             ),
             IconButton(
-              onPressed: () => launch(ContactFunction.locationUrl),
-              icon: Image.asset(
-                "assets/icons/location.png",
+              onPressed: () => launch(
+                  "https://drive.google.com/uc?export=download&id=1LzBwGQrmoOmPN9WU26BxN2xTtV1trZZL"),
+              icon: SvgPicture.asset(
+                "assets/icons/download.svg",
               ),
             ),
             Spacer(),

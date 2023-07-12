@@ -17,45 +17,29 @@ class Coding extends StatelessWidget {
         Padding(
           padding: EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
-            'Product Supplied',
+            'Coding Languages',
             style: Theme.of(context).textTheme.titleSmall,
           ),
         ),
         AnimatedLinearProgressIndicator(
-          label: "Bihar",
-          percentage: 0.12,
+          label: "C++",
+          percentage: 0.95,
         ),
         AnimatedLinearProgressIndicator(
-          label: "Karnatak",
-          percentage: 0.11,
+          label: "Dart",
+          percentage: 0.80,
         ),
         AnimatedLinearProgressIndicator(
-          label: "Assam",
-          percentage: 0.10,
+          label: "HTML",
+          percentage: 0.95,
         ),
         AnimatedLinearProgressIndicator(
-          label: "Madhya pardesh",
-          percentage: 0.13,
+          label: "CSS",
+          percentage: 0.95,
         ),
         AnimatedLinearProgressIndicator(
-          label: "Rajsthan",
-          percentage: 0.14,
-        ),
-        AnimatedLinearProgressIndicator(
-          label: "Uttar Pardesh",
-          percentage: 0.12,
-        ),
-        AnimatedLinearProgressIndicator(
-          label: "chhattisgarh",
-          percentage: 0.15,
-        ),
-        AnimatedLinearProgressIndicator(
-          label: "Maharastra",
-          percentage: 0.11,
-        ),
-        AnimatedLinearProgressIndicator(
-          label: "Gujrat",
-          percentage: 0.12,
+          label: "Java Script",
+          percentage: 0.95,
         ),
       ],
     );

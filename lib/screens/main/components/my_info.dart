@@ -22,11 +22,11 @@ class MyInfo extends StatelessWidget {
           ),
           Spacer(),
           Text(
-            "R.K.Singh Kushwaha",
+            "Mrityunjay Kumar",
             style: Theme.of(context).textTheme.titleSmall,
           ),
           Text(
-            "Apple Man of Bihar",
+            "Placement Coordinator at NIT Jamshedpur",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontWeight: FontWeight.w200,

@@ -59,7 +59,7 @@ class HomeBanner extends StatelessWidget {
                       backgroundColor: primaryColor,
                     ),
                     child: Text(
-                      "ORDER NOW",
+                      "Explore",
                       style: TextStyle(color: darkColor),
                     ),
                   )
@@ -89,7 +89,7 @@ class MyBuildAnimatedText extends StatelessWidget {
             SizedBox(
               width: defaultPadding / 2,
             ),
-          Text("I Grow "),
+          Text("I Build "),
           Responsive.isMobile(context)
               ? Expanded(child: AnimatedText())
               : AnimatedText(),
@@ -113,15 +113,15 @@ class AnimatedText extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedTextKit(animatedTexts: [
       TyperAnimatedText(
-        "Hot Climate Apple Plants",
+        "Jay Kissan App For Our Farmers",
         speed: Duration(milliseconds: 60),
       ),
       TyperAnimatedText(
-        "Jewelery for Our earth",
+        "Responsive Web and Mobile App",
         speed: Duration(milliseconds: 60),
       ),
       TyperAnimatedText(
-        " a healthy LifeStyle for all",
+        " Plant Adopter to create an real Emotion and impact",
         speed: Duration(milliseconds: 60),
       ),
     ]);
@@ -139,7 +139,7 @@ class FlutterCodedText extends StatelessWidget {
       TextSpan(
         text: "<",
         children: [
-          TextSpan(text: "Apple Man", style: TextStyle(color: primaryColor)),
+          TextSpan(text: "Flutter", style: TextStyle(color: primaryColor)),
           TextSpan(text: ">"),
         ],
       ),

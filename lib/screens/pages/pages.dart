@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
-import 'package:flutter_profile/main.dart';
-import 'package:flutter_profile/screens/pages/anna.dart';
-import 'package:flutter_profile/screens/pages/dorsett.dart';
-import 'package:flutter_profile/screens/pages/hrmn99.dart';
+import 'package:flutter_profile/screens/pages/apple_garden.dart';
+import 'package:flutter_profile/screens/pages/smart_home.dart';
+import 'package:flutter_profile/screens/pages/jaykissan.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -14,9 +13,9 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   static const List<Widget> _widgetOptions = <Widget>[
-    HRMN(),
-    DorsettGolden(),
-    Anna(),
+    JayKissan(),
+    SmartHome(),
+    AppleGarden(),
   ];
 
   void _onItemTapped(int index) {
@@ -30,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Apple Garden',
+          'My Projects',
           style: TextStyle(color: primaryColor),
         ),
         backgroundColor: secondaryColor,
@@ -42,24 +41,24 @@ class _MyHomePageState extends State<MyHomePage> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.apple,
-              color: Color(0xffff0800),
+              Icons.home_filled,
+              color: Color.fromARGB(255, 47, 255, 0),
             ),
-            label: 'HRMN99',
+            label: 'Jay Kissan',
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.apple,
+              Icons.mobile_friendly,
               color: Color(0xffffdf00),
             ),
-            label: 'Dorsett Golden',
+            label: 'Samrt Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.apple,
               color: primaryColor,
             ),
-            label: 'Anna',
+            label: 'Apple Garden',
           ),
         ],
         currentIndex: _selectedIndex,

@@ -16,7 +16,7 @@ class MyProjects extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Plants",
+          "Projects",
           style: Theme.of(context).textTheme.headlineSmall,
         ),
         const SizedBox(

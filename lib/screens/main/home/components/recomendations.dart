@@ -17,7 +17,7 @@ class Recomendations extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Recomendations  ->",
+            "Certifications ->",
             style: Theme.of(context)
                 .textTheme
                 .headlineSmall!

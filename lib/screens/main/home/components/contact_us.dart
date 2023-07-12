@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/screens/main/components/contact_icon_function.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import 'package:url_launcher/url_launcher.dart';
 
@@ -22,7 +21,7 @@ class _ContactUsState extends State<ContactUs> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Contact Us  ->",
+            "Contact Me ->",
             style: Theme.of(context)
                 .textTheme
                 .headlineSmall!
@@ -42,8 +41,8 @@ class _ContactUsState extends State<ContactUs> {
                 children: [
                   contactContainer(
                     icon: Icons.email_outlined,
-                    Title: " Email us on",
-                    Subtitle: "applegardenofficial@gmail.com",
+                    Title: " Email me on",
+                    Subtitle: "kmrityunjay1998@gmail.com",
                     OnTap: ContactFunction.SendEmail,
                   ),
                   const SizedBox(
@@ -51,8 +50,8 @@ class _ContactUsState extends State<ContactUs> {
                   ),
                   contactContainer(
                     icon: Icons.message_rounded,
-                    Title: " Whatsapp us on",
-                    Subtitle: "+917488043538",
+                    Title: " Whatsapp me on",
+                    Subtitle: "+918949996269",
                     OnTap: () => ContactFunction.launchWhatsapp(context),
                   ),
                   const SizedBox(
@@ -60,20 +59,21 @@ class _ContactUsState extends State<ContactUs> {
                   ),
                   contactContainer(
                     icon: Icons.call,
-                    Title: " Call us on",
-                    Subtitle: "+917488043538",
+                    Title: " Call me on",
+                    Subtitle: "+918949996269",
                     OnTap: ContactFunction.launchdailer,
                   ),
                   const SizedBox(
                     width: defaultPadding,
                   ),
                   contactContainer(
-                    icon: Icons.remove_red_eye_outlined,
-                    Title: " see us on Youtube",
-                    Subtitle: " see Our playlist",
-                    OnTap: () {
-                      launch(ContactFunction.youtubeUrl);
-                    },
+                    icon: Icons.download,
+                    Title: " Download CV",
+                    Subtitle: "Click to download",
+                    OnTap: ContactFunction.launchURLL,
+                  ),
+                  const SizedBox(
+                    width: defaultPadding,
                   ),
                 ],
               ),

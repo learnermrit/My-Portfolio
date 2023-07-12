@@ -26,7 +26,7 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
                   label,
                   style: TextStyle(color: Colors.white),
                 ),
-                Text((value * 100 * 50).toInt().toString() + "+"),
+                Text((value * 100).toInt().toString() + "%"),
               ],
             ),
             SizedBox(
@@ -34,7 +34,7 @@ class AnimatedLinearProgressIndicator extends StatelessWidget {
             ),
             LinearProgressIndicator(
               color: primaryColor,
-              value: value * 5,
+              value: value,
               backgroundColor: darkColor,
             ),
           ],

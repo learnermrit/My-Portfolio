@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
-import 'animated_circular_progress_indicator.dart';
 import 'area_info.dart';
 import 'skills.dart';
 import 'my_info.dart';
@@ -36,7 +34,7 @@ class SideMenu extends StatelessWidget {
                 ),
                 AreaInfoText(
                   title: "Age",
-                  text: "48",
+                  text: "25",
                 ),
                 Skills(),
                 SizedBox(

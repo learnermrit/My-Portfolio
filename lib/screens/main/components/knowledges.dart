@@ -17,24 +17,24 @@ class Knowledges extends StatelessWidget {
         Padding(
           padding: EdgeInsets.symmetric(vertical: defaultPadding),
           child: Text(
-            'Product Benefits',
+            'Knowledges',
             style: TextStyle(color: Colors.white),
           ),
         ),
         KnowledgeText(
-          text: "Hybrid plants",
+          text: "Flutter, Dart",
         ),
         KnowledgeText(
-          text: "compatiable with any season",
+          text: "GIT Kmowledge",
         ),
         KnowledgeText(
-          text: "Organic Farming",
+          text: "Firebase, SQL",
         ),
         KnowledgeText(
-          text: "Home friendly(small area Decor)",
+          text: "Html, Css, Javascript",
         ),
         KnowledgeText(
-          text: "High Success Rate",
+          text: "OOPS, CN, DBMS, OS, Networking",
         ),
       ],
     );
